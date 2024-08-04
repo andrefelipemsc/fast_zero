@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for fast-zero-muddy-breeze-7699 on 2024-07-27T22:00:15-03:00
+# fly.toml app configuration file generated for fast-zero-winter-sound-2218 on 2024-07-28T08:37:37-03:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'fast-zero-muddy-breeze-7699'
+app = 'fast-zero-winter-sound-2218'
 primary_region = 'gru'
 
 [build]
