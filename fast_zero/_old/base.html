@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="app">
+        {{ message }}
+        <p>Este é um parágrafo adicionado pelo Vue.</p>
+    </div>
+    <script>
+      const app = Vue.createApp({
+          // Aqui você pode adicionar lógica Vue se necessário
+      }).mount('#app')
+    </script>
+    {% block content %}{% endblock %}
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
+  </body>
+</html>

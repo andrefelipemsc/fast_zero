@@ -1,7 +1,7 @@
 from http import HTTPStatus
 
 
-def test_read_root_deve_retornar_ok_e_ola_mundo(client):
-    response = client.get('/')
+def test_ping_deve_retornar_ok_e_pong(client):
+    response = client.get('/ping')
     assert response.status_code == HTTPStatus.OK
-    assert response.json() == {'message': 'Olá mundo!'}
+    assert response.json() == {'message': 'pong'}

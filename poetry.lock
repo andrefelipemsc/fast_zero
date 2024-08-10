@@ -108,6 +108,16 @@ dev = ["cogapp", "pre-commit", "pytest", "wheel"]
 tests = ["pytest"]
 
 [[package]]
+name = "brython"
+version = "3.11.0"
+description = "Brython is an implementation of Python 3 running in the browser"
+optional = false
+python-versions = "*"
+files = [
+    {file = "brython-3.11.0.tar.gz", hash = "sha256:94f32ef1a5969be13b77d9fedab275b662940114f0f94003b34da45016d93c82"},
+]
+
+[[package]]
 name = "certifi"
 version = "2024.6.2"
 description = "Python package for providing Mozilla's CA Bundle."
@@ -2153,4 +2163,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "3.12.*"
-content-hash = "4fa5ac67a88c7481426ac27b6370b0022d3bc107c559a52a46cefdb92a938814"
+content-hash = "a4a59ef86fe12bee3e0097bb649d1eda6d00e45596a559717a7f446e7b393250"
